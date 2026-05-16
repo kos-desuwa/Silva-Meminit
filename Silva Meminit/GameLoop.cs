@@ -143,7 +143,7 @@ namespace Silva_Meminit
                 {
                     DateTime end = DateTime.Now.AddSeconds(1);
                     sw.Write("lime");
-                    PlaySoundEffect("lime.wav");
+                    PlaySoundEffect("../../../scream.wav");
                     while(DateTime.Now < end)
                         Console.Write("lime");
                     Console.Clear();

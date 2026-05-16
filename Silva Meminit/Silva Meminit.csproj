@@ -9,4 +9,15 @@
 	<ItemGroup>
 		<PackageReference Include="System.Windows.Extensions" Version="*" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Update="lime.wav">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="pikmin.url">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="scream.wav">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 </Project>

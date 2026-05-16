@@ -73,7 +73,7 @@ while ((input == "" || input == "p" || input == "f" || input == "h" || input == 
             }
             break;
         case "lime":
-            PlaySoundEffect("lime.wav");
+            PlaySoundEffect("../../../lime.wav");
             Clear();
             break;
     }
